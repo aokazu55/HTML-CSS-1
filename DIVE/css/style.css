@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -63,7 +68,7 @@ ul.top_menu {
 
 .side_menu li{
   background-color: #F5B4B3;
-  height: 6rem;
+  height: 7rem;
   margin-bottom: 10px;
 }
 
