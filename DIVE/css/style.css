@@ -1,0 +1,147 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 980px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+ul.top_menu {
+  float: right;
+}
+
+.top_menu li {
+  float: left;
+  width: auto;
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+
+.image_area{
+  width: 100%;
+}
+
+.wrapper{
+  margin-top: 10px;
+}
+
+.side_menu{
+  width: 300px;
+  float: left;
+}
+
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.side_menu .point{
+  background-color: #FCECEC;
+}
+.side_menu .point a{
+  color: #4D4D4D;
+}
+
+th{
+  width: 150px;
+  height: 6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.4rem
+}
+
+td{
+  width: 480px;
+}
+
+input[type="text"]{
+  width: 480px;
+}
+
+textarea[name="kanso"]{
+  width: 480px;
+}
+
+input[id="submit_button"]{
+  height: 5rem;
+  width: 8rem;
+  margin-left: 12rem;
+  background-color: #7fc1d3;
+  color: white;
+  font-size: 2.8rem
+}
+
+input[id="submit_button"]:hover{
+  opacity: 0.5;
+}
+
+th[align="right"]{
+  padding-right: 20px;
+}
+
+.footer{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+  display: table;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.wrapper{
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
